@@ -1,0 +1,26 @@
+// create an avatar component which accepts url as a prop
+// it renders an image tag with url as the src
+// and a title tag with the url as the content
+// image has class avatar-image
+
+
+// create a component which looks like instagram feed
+// it accepts a list of images as a prop
+// it renders a list of avatar components
+// each avatar component has a url prop
+// and a title prop
+// each avatar component has a className prop
+
+// Create a Home component with infinite scroll
+// it fetches images from the API_URL and stores them in state
+// it renders a Feed component with the images
+// it renders a loading spinner while fetching images
+// it renders a no-images message while fetching images
+// it calls the API and renders next set of images when user scrolls to the bottom
+
+
+  // create a function which uses intersectionObserver to detect when user scrolls to the bottom
+  // it observes the scroll event and calls the API to fetch more images
+  // it also sets isLoading to true while fetching images
+  // it sets isLoading to false when images are fetched
+  // it observes the btn ref and calls the API when user clicks the button
